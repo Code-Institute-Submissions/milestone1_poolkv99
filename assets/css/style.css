@@ -9,3 +9,120 @@ body {
   font-family: Roboto;
   color: #777777;
 }
+
+/* Menu */
+
+header {
+    text-transform: uppercase;
+}
+#header {
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
+  color: #555555;
+  letter-spacing: 10px;
+}
+#menu {
+  letter-spacing: 4px;
+  float: right;
+}
+li:first-child {
+  list-style: none
+}
+#menu, #logo {
+  line-height: 75px;
+}
+#menu li {
+  float: left;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+#menu a:hover {
+  border-bottom: 1px solid #777777;
+}
+.active {
+  border-bottom: 1px solid #777777;
+} 
+
+/* Menu */
+
+
+
+/* Footer */
+footer {
+  height: 150px;
+}
+.social-networks {
+  clear: both;
+  text-align: center;
+  /*margin-top: 200px;*/
+}
+.social-networks li {
+  display: inline;
+  border-bottom: 0;
+}
+.social-networks i {
+  font-size: 150%;
+  margin: 1%;
+  padding: 5%;
+}
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+.fa-instagram {
+  color: #c13584;
+}
+/* Footer */
+
+
+/* tablet */
+@media screen and (max-width: 700px) {
+    /* Menu */
+ #header {
+    font-size: 180%;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    float: left;
+  }
+  #menu {
+    font-size: 80%;
+    letter-spacing: 2px;
+    float: right;
+    line-height: 50px;
+  }
+  /* Menu */
+}
+/* tablet */
+
+
+/* mobile */
+@media screen and (max-width: 500px) {
+/* Menu */
+ #header {
+    font-size: 90%;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    float: left;
+  }
+  #menu {
+    font-size: 60%;
+    letter-spacing: 0px;
+    float: right;
+    line-height: 20px;
+  }
+  #menu li {
+    margin-right: 18px;
+  }   
+  /* Menu */
+}
+/* mobile */
