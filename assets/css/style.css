@@ -49,8 +49,9 @@ li:first-child {
 }
 /* Menu */
 
+/* Team photo */
 #photo-outer {
-  height: 600px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -76,18 +77,85 @@ li:first-child {
   padding-left: 10px;
   background-color: #777777;
 
-  bottom: 110px;
+  bottom: 10px;
   right: 10px;
   position: absolute;
 }
+/* Team photo */
 
 
-
-#who-are-we {
+section {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+#title {
   margin: 20px 0;
-  text-align: center;
   font-size: 280%;
 }
+#left-players, #right-players {
+  padding-top: 30px;
+  width: 45%;
+}
+#right-players {
+  float: right;
+}
+#left-players {
+  float: left;
+}
+hr {
+  border-top: 2px dashed rgba(241, 10, 10, 0.5);
+  width: 100%;
+  margin: 5px 0;
+}
+.left-players-heading, .right-players-heading {
+  width: 70%;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+.left-players-heading {
+  float: right;
+}
+.right-players-heading {
+  float: left;
+}
+.left-players-heading h2, .left-players-heading p, .left-players-heading table {
+  text-align: left;
+}
+.right-players-heading h2, .right-players-heading p, .right-players-heading table {
+  text-align: right;
+}
+.right-players-heading table {
+  float: right;
+}
+
+#center-players {
+  width: 30%;
+  margin: 0 auto;
+  opacity: 0.5;
+  margin-top: 50px;
+}
+#circle-container {
+  width: 170px;
+  height: 170px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+#circle-cover-bg {
+  background: url("../images/8ball.png") no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+}
+
+
+
 
 
 /* Footer */
@@ -164,7 +232,30 @@ footer {
   /* Menu */
 
   #photo-team {
-    height: 150px;
+    height: 200px;
   }
+  #photo-outer {
+    height: 200px;
+  }
+
+  .left-players-heading, .right-players-heading {
+    width: 100%;
+  }
+  .left-players-heading h2, .right-players-heading h2 {
+    font-size: 70%;
+  }
+  .left-players-heading p, .right-players-heading p {
+    font-size: 60%;
+  }
+  .left-players-heading td, .right-players-heading td {
+    font-size: 80%;
+  }
+  #center-players{
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    opacity: 0.1;
+  }
+  
 }
 /* mobile */
