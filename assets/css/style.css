@@ -27,7 +27,7 @@ header {
   float: right;
 }
 li:first-child {
-  list-style: none
+  list-style: none;
 }
 #menu, #logo {
   line-height: 75px;
