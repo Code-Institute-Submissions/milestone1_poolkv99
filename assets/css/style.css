@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: inherit; /* This fixes the bootstrap 8 ball background issue */
 }
 body {
   font-family: Roboto;
@@ -91,7 +92,7 @@ li:first-child {
   clear: both;
   height: 500px;
   width: 100%;
-  background: url("../images/pool1.jpg") no-repeat center center;
+  background: url("../images/pool3.jpeg") no-repeat center center;
   background-color: #777777;
   background-size: cover;
 }
@@ -272,7 +273,7 @@ footer {
  #header {
     font-size: 90%;
     letter-spacing: 2px;
-    margin-left: 10px;
+    margin: 5px 0 0 10px;
     float: left;
   }
   #menu {
@@ -280,13 +281,14 @@ footer {
     letter-spacing: 0px;
     float: right;
     line-height: 20px;
+    margin: 0;
   }
   #menu li {
     margin-right: 18px;
-  }   
+  }
 /*---------- End Menu ----------*/
 
-  #photo-team {
+  #photo-team, #photo-league, #photo-contact {
     height: 200px;
   }
   #photo-outer {
