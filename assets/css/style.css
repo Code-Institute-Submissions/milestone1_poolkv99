@@ -18,13 +18,15 @@ header {
 #header {
   float: left;
   font-size: 280%;
-  margin-left: 30px;
+  margin: 10px 0 0 30px;
+  font-weight: 300;
   color: #555555;
   letter-spacing: 10px;
 }
 #menu {
   letter-spacing: 4px;
   float: right;
+  margin: 0;
 }
 li:first-child {
   list-style: none;
@@ -84,6 +86,29 @@ li:first-child {
 /*---------- End Team photo ----------*/
 
 
+/*---------- League photo ----------*/
+#photo-league {
+  clear: both;
+  height: 500px;
+  width: 100%;
+  background: url("../images/pool1.jpg") no-repeat center center;
+  background-color: #777777;
+  background-size: cover;
+}
+/*---------- End League photo ----------*/
+
+/*---------- Contact photo ----------*/
+#photo-contact {
+  clear: both;
+  height: 500px;
+  width: 100%;
+  background: url("../images/pool2.jpg") no-repeat center center;
+  background-color: #777777;
+  background-size: cover;
+}
+/*---------- End Contact photo ----------*/
+
+
 /*---------- Player and team info ----------*/
 #intro-team {
     text-align: center;
@@ -100,6 +125,9 @@ li:first-child {
   font-size: 280%;
   text-align: center;
   margin-top: 40px;
+}
+#players-name {
+    font-size: 120%;
 }
 #left-players, #right-players {
   padding-top: 30px;
@@ -168,7 +196,7 @@ hr {
 
 /*---------- League tables ----------*/
 #table-section {
-    margin-top: 300px;
+    margin-top: 40px;
     clear: both;
 }
 .table-bordered {
