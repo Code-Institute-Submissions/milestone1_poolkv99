@@ -9,12 +9,19 @@ Seperate the team itself will use it to see what our schedule is and when and wh
 
 This site is for general users who want to know more about the team and teammembers who want to know more about fixtures and results. The site has divided these sections in different pages, with the information for the general users on the homepage. This beacause the teammembers are on the site for specific information and the general users need more generic information.
 
-- As a general user, I want to know what this site is about.
-- As a general user, I want to see who is in the team, so I know the teammembers.
+- As a site owner I want to have the social links open in a new tab/page of the browser so the user is not lost on our website
 
-- As a team user, I want to see the results, so I know what we have scored.
-- As a team user, I want to see the fixtures, so I know when and where we have to play again.
-- As a team user, I want to see the schedule, so I know if we need to play promotion/relegation.
+- As a general user, I want to have links to the social networks of the team so I can see more of the team
+- As a general user, I want to have a clear and obvious menu so I can surf on the site without searching to much
+- As a general user, I want to see more information about the team so I can get a feeling how the atmospere is in the team
+- As a general user, I want to see what strenghts the players have so I know if I can complement the team
+- As a general user, I want to see how the team is doing in the competition so I know how many games you have to play in a season
+- As a general user, I want to have a possibility to get in contact with the team so I can join the team
+- As a general user, I want to have a possibility to get in contact with the team so I can start playing pool biliards
+
+- As a team member, I want to see the past results so I can see how our team has performed (when I wasn't there)
+- As a team member, I want to see the upcoming fixtures so I can see when and where we have to play again.
+- As a team member, I want to see the competition table so I can see how we are doing this competition
 
 
 ## Features
@@ -27,11 +34,12 @@ This site is for general users who want to know more about the team and teammemb
 
 ## Technologies Used
 
-The project uses HTML/CSS.
+The project uses HTML/CSS and bootstrap.
 
 
 ### Media
-- The photos used in this site were obtained from my personal library, with permission of all team members to use this for my milestone project.
+- The photo used on the homepage was obtained from my personal library, with permission of all team members to use this for my milestone project.
+- The photos for leauge and contact page are from https://pixabay.com/
 
 
 ### Acknowledgements

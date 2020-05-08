@@ -44,7 +44,7 @@ li:first-child {
     color: inherit;
 }
 #menu a:hover {
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid #d4cccc;
 }
 .active {
     border-bottom: 1px solid #777777;
@@ -353,17 +353,38 @@ footer {
     #intro-team {
         width: 80%;
     }
+    /*
     .left-players-block, .right-players-block {
         width: 100%;
     }
     .left-players-block, .right-players-block {
         font-size: 70%;
     }
+    */
+    #right-players,  #left-players {
+        float: none;
+        width:100%;
+        margin:auto;
+    }
+    .left-players-block {
+        float:none;
+        margin:auto;
+        margin-bottom: 40px;
+    }
+    .right-players-block {
+        float:none;
+        margin:auto;
+        margin-bottom: 120px !important;
+    }
+    #center-players{
+        display: none;
+    }
+    /*
     #center-players{
         margin:auto;
         text-align: center;
         width: 50%;
         opacity: 0.1;
-    }
+    }*/
 }
 /*---------- End Mobile ----------*/
