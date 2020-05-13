@@ -245,15 +245,28 @@ footer {
 
 /*---------- Contact box ----------*/
 .form-section {
+    float:left;
+    position: relative;
+    left:5%;
     height: 500px;
+    width: 40%;
+    margin:auto;
     margin-bottom: 150px;
+}
+.info-section {
+    float:right;
+    position: absolute;
+    right:5%;
+    margin-top: 30px;
+    padding:20px 20px 20px 20px;
+    width: 40%;
+    border: 1px solid #333333;
+    border-radius: 20px;
 }
 .signup-form {
     margin-top:30px;
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
     left:5%;
     padding: 10px;
     border-radius: 10px;
@@ -317,6 +330,25 @@ footer {
         line-height: 50px;
     }
 /*---------- End Menu ----------*/
+/*---------- Contact box ----------*/
+    .info-section {
+        float: none;
+        position: relative;
+        right: auto;
+        margin: auto;
+        top: 20px;
+        width: 80%;
+    }
+    .form-section {
+        float: none;
+        position: relative;
+        left: auto;
+        margin: auto;
+        top: 10px;
+        width: 80%;
+        height: auto;
+    }
+/*---------- End Contact box ----------*/
 }
 /*---------- End Tablet ----------*/
 
