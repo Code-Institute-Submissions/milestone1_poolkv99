@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300");
-@import url('https://fonts.googleapis.com/css?family=Arimo:300');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 
 * {
     margin: 0;
@@ -8,11 +9,12 @@
     box-sizing: inherit; /* This fixes the bootstrap 8 ball background issue thickness */
 }
 body {
-    font-family: Roboto, Arial;
+    font-family: IBM Plex Sans, Roboto, Arial;
     color: #777777;
 }
 
 /*---------- Menu ----------*/
+/*---------- Idea and contains code from Love Running project ----------*/  
 header {
     text-transform: uppercase;
 }
@@ -53,6 +55,7 @@ li:first-child {
 
 
 /*---------- Team photo ----------*/
+/*---------- Idea and contains code from Love Running project ----------*/  
 #photo-outer {
     height: 400px;
     width: 100%;
@@ -68,18 +71,23 @@ li:first-child {
     background-size: cover;
 }
 #cover-text h2 {
-    font-size: 90%;
-    font-family: Arimo, Roboto, Arial;
+    font-size: 120%;
+    font-family: Roboto, IBM Plex Sans, Arial;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #ffffff;
-    width: 180px;
-    height: 30px;
-    padding: 10px 0 0 10px;
-    background-color: #777777;
+    width: 200px;
+    height: 60px;
+    padding: 10px 10px 0px 10px;
+    background-color: #2b2b2b;
     bottom: 10px;
-    right: 10px;
+    left: 20px;
     position: absolute;
+    text-align: center;
+}
+.bg-danger{
+    text-align: center;
+    font-size: 18px;
 }
 /*---------- End Team photo ----------*/
 
@@ -109,6 +117,7 @@ li:first-child {
 
 
 /*---------- Player and team info ----------*/
+/*---------- Idea and contains code from Love Running project ----------*/  
 #intro-team {
     text-align: center;
     width: 60%;
@@ -167,7 +176,8 @@ hr {
 /*---------- End Player and team info ----------*/
 
 
-/*---------- 8 ball ----------*/
+/*---------- 8 ball ----------*/  
+/*---------- Idea and contains code from Love Running project ----------*/  
 #center-players {
     width: 30%;
     margin: 0 auto;
@@ -199,7 +209,7 @@ hr {
     clear: both;
 }
 .table-bordered {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
     color: #777777;
     width: 80%;
     margin: auto;
@@ -214,16 +224,16 @@ hr {
 footer {
     height: 150px;
 }
-.social-networks {
+.social {
     clear: both;
     text-align: center;
     /*margin-top: 200px;*/
 }
-.social-networks li {
+.social li {
     display: inline;
     border-bottom: 0;
 }
-.social-networks i {
+.social i {
     font-size: 150%;
     margin: 1%;
     padding: 5%;
@@ -353,6 +363,21 @@ footer {
 /*---------- End Tablet ----------*/
 
 
+/*---------- Inbetween tablet-mobile ----------*/
+@media screen and (max-width: 600px) and (min-width: 501px){
+    #players-name, .left-players-block p, .right-players-block p{
+        font-size: 80%;
+    }
+    #intro-players tr{
+        font-size: 60%;
+    }
+    #center-players{
+        width: auto;
+        opacity: 0.2;
+    }
+}
+/*---------- EndInbetween tablet-mobile ----------*/
+
 
 /*---------- Mobile ----------*/
 /* chose for this size, because of the menu bar */
@@ -385,14 +410,13 @@ footer {
     #intro-team {
         width: 80%;
     }
-    /*
-    .left-players-block, .right-players-block {
-        width: 100%;
+    #cover-text h2 {
+        font-size: 90%;
+        letter-spacing: 2px;
+        width: 130px;
+        height: 40px;
+        padding: 6px 3px 0px 3px;
     }
-    .left-players-block, .right-players-block {
-        font-size: 70%;
-    }
-    */
     #right-players,  #left-players {
         float: none;
         width:100%;
@@ -411,12 +435,5 @@ footer {
     #center-players{
         display: none;
     }
-    /*
-    #center-players{
-        margin:auto;
-        text-align: center;
-        width: 50%;
-        opacity: 0.1;
-    }*/
 }
 /*---------- End Mobile ----------*/
