@@ -30,11 +30,16 @@ This site is for general users who want to know more about the team and teammemb
 - Each member is show which it's strengts.
 - There is a schedule of fixtures, past results and upcoming matches.
 - There is a league table.
+- Contact form
+- Social networks links
 
 
 ## Technologies Used
 
-The project uses HTML/CSS and bootstrap.
+The project uses:
+- HTML/CSS
+- Bootstrap
+- Fontawesome
 
 
 ### Media
