@@ -8,16 +8,22 @@
     border: 0;
     box-sizing: inherit; /* This fixes the bootstrap 8 ball background issue thickness */
 }
+
 body {
     font-family: IBM Plex Sans, Roboto, Arial;
     color: #777777;
 }
+
+#center-text {
+    text-align: center;
+}  
 
 /*---------- Menu ----------*/
 /*---------- Idea and contains code from Love Running project ----------*/  
 header {
     text-transform: uppercase;
 }
+
 #header {
     float: left;
     font-size: 280%;
@@ -26,28 +32,35 @@ header {
     color: #555555;
     letter-spacing: 10px;
 }
+
 #menu {
     letter-spacing: 4px;
     float: right;
     margin: 0;
 }
+
 li:first-child {
     list-style: none;
 }
+
 #menu, #logo {
     line-height: 75px;
 }
+
 #menu li {
     float: left;
     margin-right: 30px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover {
     border-bottom: 1px solid #d4cccc;
 }
+
 .active {
     border-bottom: 1px solid #777777;
 }
@@ -62,6 +75,7 @@ li:first-child {
     overflow: hidden;
     position: relative;
 }
+
 #photo-team {
     clear: both;
     height: 500px;
@@ -70,6 +84,7 @@ li:first-child {
     background-color: #777777;
     background-size: cover;
 }
+
 #cover-text h2 {
     font-size: 120%;
     font-family: Roboto, IBM Plex Sans, Arial;
@@ -85,6 +100,7 @@ li:first-child {
     position: absolute;
     text-align: center;
 }
+
 .bg-danger{
     text-align: center;
     font-size: 18px;
@@ -123,55 +139,72 @@ li:first-child {
     width: 60%;
     margin: auto;
 }
+
 #intro-players {
     text-align: center;
     width: 90%;
     margin: auto;
 }
+
 #title {
     margin: 20px 0;
     font-size: 280%;
     text-align: center;
     margin-top: 40px;
 }
+
 #players-name {
     font-size: 120%;
 }
+
 #left-players, #right-players {
     padding-top: 30px;
     width: 45%;
 }
+
 #right-players {
     float: right;
 }
+
 #left-players {
     float: left;
 }
+
 hr {
     border-top: 2px dashed rgba(241, 10, 10, 0.5);
     width: 100%;
     margin: 5px 0;
 }
+
 .left-players-block, .right-players-block {
     width: 70%;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
+
 .left-players-block {
     float: right;
 }
+
 .right-players-block {
     float: left;
 }
+
 .left-players-block h2, .left-players-block p, .left-players-block table {
     text-align: left;
 }
+
 .right-players-block h2, .right-players-block p, .right-players-block table {
     text-align: right;
 }
+
 .right-players-block table {
     float: right;
+}
+
+.showonmobile{
+    display: none;
 }
 /*---------- End Player and team info ----------*/
 
@@ -184,6 +217,7 @@ hr {
     opacity: 0.5;
     margin-top: 50px;
 }
+
 #circle-container {
     width: 170px;
     height: 170px;
@@ -195,6 +229,7 @@ hr {
     margin: 0 auto;
     margin-top: 24px;
 }
+
 #circle-cover-bg {
     background: url("../images/8ball.png") no-repeat center center;
     height: 100%;
@@ -208,49 +243,33 @@ hr {
     margin-top: 40px;
     clear: both;
 }
+
 .table-bordered {
     font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
     color: #777777;
     width: 80%;
     margin: auto;
 }
+
 .table-dark th {
     color: #ffffff;
 }
+
+#red {
+    color: red;
+    font-style: italic;
+}
+
+#green {
+    color: green;
+    font-style: italic;
+}
+
+#grey {
+    color: grey;
+    font-style: italic;
+}
 /*---------- End League tables ----------*/
-
-
-/*---------- Footer ----------*/
-footer {
-    height: 150px;
-}
-.social {
-    clear: both;
-    text-align: center;
-    /*margin-top: 200px;*/
-}
-.social li {
-    display: inline;
-    border-bottom: 0;
-}
-.social i {
-    font-size: 150%;
-    margin: 1%;
-    padding: 5%;
-}
-.fa-facebook {
-    color: #4267b2;
-}
-.fa-twitter {
-    color: #1da1f2;
-}
-.fa-youtube {
-    color: #ff0000;
-}
-.fa-instagram {
-    color: #c13584;
-}
-/*---------- End Footer ----------*/
 
 
 /*---------- Contact box ----------*/
@@ -263,6 +282,7 @@ footer {
     margin:auto;
     margin-bottom: 150px;
 }
+
 .info-section {
     float:right;
     position: absolute;
@@ -273,6 +293,7 @@ footer {
     border: 1px solid #333333;
     border-radius: 20px;
 }
+
 .signup-form {
     margin-top:30px;
     color: #ffffff;
@@ -281,10 +302,12 @@ footer {
     padding: 10px;
     border-radius: 10px;
 }
+
 .signup-form h2{
     color: #fafafa;
     margin-bottom: 20px;
 }
+
 .input{
     background-color: transparent;
     color: #fafafa;
@@ -294,9 +317,11 @@ footer {
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
+
 .input:hover{
     border-color: #333333;
 }
+
 #commentid{
     background-color: transparent;
     color: #fafafa;
@@ -305,6 +330,7 @@ footer {
     border-radius: 2px;
     width: 100%;
 }
+
 .contact-button{
     margin:auto;
     border-radius: 10px;
@@ -315,6 +341,7 @@ footer {
     color: #fafafa;
     display: block;
 }
+
 .contact-button:hover{
     background-color: #fafafa;
     color: #777777;
@@ -322,10 +349,53 @@ footer {
 /*---------- Contact box ----------*/
 
 
+/*---------- Footer ----------*/
+footer {
+    height: 100px;
+    margin-top: 50px;
+    clear: both;
+    background-color: #a1a1a1;
+}
 
-/*---------- Tablet ----------*/
+.social {
+    text-align: center;
+    background-color: #a1a1a1;
+    margin-bottom: 0px;
+}
+
+.social li {
+    display: inline;
+    border-bottom: 0;
+}
+
+.social i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+}
+
+.fa-facebook {
+    color: #4267b2;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-instagram {
+    color: #c13584;
+}
+/*---------- End Footer ----------*/
+
+
+/*--------------------  Tablet -------------------- */
 /* chose for this size, because of the menu bar */
 @media screen and (max-width: 700px) {
+
 /*---------- Menu ----------*/
     #header {
         font-size: 180%;
@@ -333,6 +403,7 @@ footer {
         margin-left: 10px;
         float: left;
     }
+
     #menu {
         font-size: 80%;
         letter-spacing: 2px;
@@ -349,6 +420,7 @@ footer {
         top: 20px;
         width: 80%;
     }
+
     .form-section {
         float: none;
         position: relative;
@@ -360,26 +432,29 @@ footer {
     }
 /*---------- End Contact box ----------*/
 }
-/*---------- End Tablet ----------*/
+/*--------------------  End Tablet -------------------- */
 
 
-/*---------- Inbetween tablet-mobile ----------*/
+/*--------------------  Inbetween tablet-mobile -------------------- */
 @media screen and (max-width: 600px) and (min-width: 501px){
+
     #players-name, .left-players-block p, .right-players-block p{
         font-size: 80%;
     }
+
     #intro-players tr{
         font-size: 60%;
     }
+
     #center-players{
         width: auto;
         opacity: 0.2;
     }
 }
-/*---------- EndInbetween tablet-mobile ----------*/
+/*---------- End Inbetween tablet-mobile ----------*/
 
 
-/*---------- Mobile ----------*/
+/*--------------------  Mobile -------------------- */
 /* chose for this size, because of the menu bar */
 @media screen and (max-width: 500px) {
 
@@ -390,12 +465,14 @@ footer {
         margin:auto;
         float: left;
     }
+
     #menu {
         letter-spacing: 0px;
         float: right;
         line-height: 20px;
         margin: 5px 0 5px 10px;
     }
+
     #menu li {
         margin-right: 18px;
     }
@@ -404,36 +481,74 @@ footer {
     #photo-team, #photo-league, #photo-contact {
         height: 200px;
     }
+    
     #photo-outer {
         height: 200px;
     }
+
     #intro-team {
         width: 80%;
     }
+
+    #intro-players {
+        margin: auto;
+    }
+
+    #title{
+        font-size: 150%
+    }
+
     #cover-text h2 {
         font-size: 90%;
         letter-spacing: 2px;
-        width: 130px;
+        width: 140px;
         height: 40px;
         padding: 6px 3px 0px 3px;
     }
-    #right-players,  #left-players {
+
+    .showonmobile{
+        display: block;
+        text-align: left;
+        width: 80px;
+    }
+
+    .hideonmobile {
+        display: none;
+        width: 0px;
+    }
+
+    .widthonmobile {
+        width: 200px;
+    }
+
+    table {
+        width: 100%;
+        margin: auto;
+    }
+
+    #right-players, #left-players {
         float: none;
-        width:100%;
-        margin:auto;
+        width: auto;
+        margin: auto;
+        margin-left: 30px;
     }
-    .left-players-block {
-        float:none;
-        margin:auto;
-        margin-bottom: 40px;
+
+    .left-players-block  {
+        float: none;
     }
+
+    .right-players-block h2, .right-players-block p, .right-players-block table {
+        text-align: left;
+    }
+/*
     .right-players-block {
         float:none;
         margin:auto;
         margin-bottom: 120px !important;
-    }
+    }*/
+
     #center-players{
         display: none;
     }
 }
-/*---------- End Mobile ----------*/
+/*-------------------- End Mobile --------------------*/
