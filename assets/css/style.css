@@ -351,7 +351,6 @@ hr {
 
 /*---------- Footer ----------*/
 footer {
-    height: 100px;
     margin-top: 50px;
     clear: both;
     background-color: #a1a1a1;
@@ -388,6 +387,12 @@ footer {
 
 .fa-instagram {
     color: #c13584;
+}
+
+.white {
+    color: #fafafa;
+    margin: auto;
+    font-size: 110%;
 }
 /*---------- End Footer ----------*/
 
@@ -492,6 +497,7 @@ footer {
 
     #intro-players {
         margin: auto;
+        width: 80%;
     }
 
     #title{
@@ -528,9 +534,9 @@ footer {
 
     #right-players, #left-players {
         float: none;
-        width: auto;
+        width: 100%;
         margin: auto;
-        margin-left: 30px;
+
     }
 
     .left-players-block  {
