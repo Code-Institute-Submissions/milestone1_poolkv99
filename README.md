@@ -50,3 +50,6 @@ The project uses:
 ### Acknowledgements
 
 - I received inspiration for this project from Love Running project in the CSS fundamentals section of the study.
+
+I used https://www.w3schools.com/ for research.
+I used https://www.embedgooglemap.net/en/ for the Google maps code.

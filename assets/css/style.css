@@ -14,7 +14,7 @@ body {
     color: #777777;
 }
 
-#center-text {
+.center-text {
     text-align: center;
 }  
 
@@ -280,14 +280,14 @@ hr {
     height: 500px;
     width: 40%;
     margin:auto;
-    margin-bottom: 150px;
 }
 
 .info-section {
     float:right;
-    position: absolute;
+    position: relative;
     right:5%;
     margin-top: 30px;
+    margin-bottom: 40px;
     padding:20px 20px 20px 20px;
     width: 40%;
     border: 1px solid #333333;
@@ -346,15 +346,96 @@ hr {
     background-color: #fafafa;
     color: #777777;
 }
+
+.gmap_canvas {
+    margin: auto;
+}
+
+/* Google maps code from https://www.embedgooglemap.net/en/ */
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 300px;
+    width: auto;
+}
+
+.gmap_address {
+    float: left;
+    margin-right: 20px;
+    text-align: left;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: auto;
+}
 /*---------- Contact box ----------*/
 
 
 /*---------- Footer ----------*/
 footer {
+    height: auto;
+    border-top: 5px #2b2b2b solid;
     margin-top: 50px;
     clear: both;
     background-color: #a1a1a1;
 }
+
+#newsletter {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fafafa;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fafafa;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fafafa;
+}
+
+#emailid-news {
+    border-radius: 10px;
+    padding: 3px 3px 3px 3px;
+    width: 50%;
+}
+
+.news-button{
+    margin:auto;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    background-color: #333333;
+    color: #fafafa;
+}
+
+/*
+.mail-content-container {
+    margin: auto;
+    color: #fafafa;
+    width: auto;
+}
+
+.form-control-lg {
+    height: 15px;
+    line-height: 15px;
+    width: 50px;
+}
+
+.btn-dark {
+
+}*/
 
 .social {
     text-align: center;
@@ -369,8 +450,8 @@ footer {
 
 .social i {
     font-size: 150%;
-    margin: 1%;
-    padding: 5%;
+    margin: 10px;
+    padding: 5px;
 }
 
 .fa-facebook {
@@ -558,3 +639,4 @@ footer {
     }
 }
 /*-------------------- End Mobile --------------------*/
+

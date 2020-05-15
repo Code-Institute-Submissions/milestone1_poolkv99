@@ -2,91 +2,135 @@
 <html>
 
 <head>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 
-    <!-- Title of tab/page -->
-    <title>Pool'KV 99 | Contact</title>
+	<!-- Title of tab/page -->
+	<title>Pool'KV 99 | Contact</title>
 
-    <!-- Resources -->
-    <script src="https://kit.fontawesome.com/66313a0c43.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<!-- Resources -->
+	<script src="https://kit.fontawesome.com/66313a0c43.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		type="text/css" />
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	</script>
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <a href="index.html">
-            <h2 id="header">Pool'KV 99</h2>
-        </a>
-        <nav>
-            <!-- Menu items -->
-            <ul id="menu">
-                <li>
-                    <a id="firstitem" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="league.html">League</a>
-                </li>
-                <li>
-                    <a class="active" href="contact.html">Contact</a>
-                </li>
-                
-            </ul>
-        </nav>
-    </header>
+	<!-- Header -->
+	<header>
+		<a href="index.html">
+			<h2 id="header">Pool'KV 99</h2>
+		</a>
+		<nav>
+			<!-- Menu items -->
+			<ul id="menu">
+				<li>
+					<a id="firstitem" href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="league.html">League</a>
+				</li>
+				<li>
+					<a class="active" href="contact.html">Contact</a>
+				</li>
 
-    <!-- Background image -->
-    <section id="photo-outer">
-        <div id="photo-contact"></div>
-    </section>
-    <div class="p-3 mb-2 bg-danger text-white">Due to the covid-19 situation our training facility is unavailable.</div>
+			</ul>
+		</nav>
+	</header>
 
-    <!-- Contact info -->
-    <section class="info-section">
-        <h2 id="title">Contact us</h2>
+	<!-- Background image -->
+	<section id="photo-outer">
+		<div id="photo-contact"></div>
+	</section>
+	<div class="p-3 mb-2 bg-danger text-white">Due to the covid-19 situation our training facility is unavailable.</div>
 
-        <p>If you want some information about billards in general, you want to start playing or you have played before and was searching for a team to join, please feel free to contact us. If you are new to the game, we will gladly invite you to come to join a training session with us.</p><br/>
-        <p>We train every Wednesday evening around 20:00 (CET) at the POOL'KV in Apeldoorn. This is our team training session, but most of us are there 4-5 times in the week. Come join us and don't be afraid to have a go at it!</p><br/>
-        <p>We hope to hear from you or welcome you at the POOL'KV !</p>
-    </section>
+	<!-- Contact info -->
+	<section class="info-section">
+		<h2 id="title">Contact us</h2>
 
-    <!-- Contact form -->
-    <section class="form-section">
-     <form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
-        <fieldset>
-          <h2 id="center-text">&#127921; Form  &#127921; </h2>
-          <label for="firstnameid">First Name</label>
-          <input class="input" type="text" name="first_name" required="true" id="firstnameid" onsubmit=""><br/>
-      
-          <label for="lastnameid">Last Name</label>
-          <input class="input" type="text" name="last_name" required="true" id="lastnameid"><br/>
-      
-          <label for="emailid">Email Address</label>
-          <input class="input" type="email" name="email_address" required="true" id="emailid"><br/>
+		<p>If you want some information about billards in general, you want to start playing or you have played before
+			and was searching for a team to join, please feel free to contact us. If you are new to the game, we will
+			gladly invite you to come to join a training session with us.</p><br/>
+		<p>We train every Wednesday evening around 20:00 (CET) at the POOL'KV in Apeldoorn. This is our team training
+			session, but most of us are there 4-5 times in the week. Come join us and don't be afraid to have a go at
+			it!</p><br/>
+		<p>We hope to hear from you or welcome you at the POOL'KV !</p>
 
-          <label for="commentid">Possible comments</label>
-          <textarea id="commentid" name="comments" rows="5"></textarea><br/>
+		<br/>
 
-          <input class="contact-button" type="submit" value="Send">
+        
+
+        <!-- Google maps code from https://www.embedgooglemap.net/en/ -->
+		<div class="mapouter">
+            <div class="gmap_address">
+                <p><span id="underline">Address</span><br/>Beekpark 13<br/>7311 BZ Apeldoorn</p>
+                <p><span id="underline">Phone</span><br/>+31 55 521 3333</p>
+                <p><span id="underline">Email</span><br/>poolkv@poolkv.nl</p>
+            </div>
+              
+
+			<div class="gmap_canvas"><iframe width="auto" height="300" id="gmap_canvas"
+					src="https://maps.google.com/maps?q=Apeldoorn%20Beekpark%2013&t=&z=15&ie=UTF8&iwloc=&output=embed"
+					frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+		</div>
+
+	</section>
+
+	<!-- Contact form -->
+	<section class="form-section">
+		<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
+			<fieldset>
+				<h2 class="center-text">&#127921; Form &#127921; </h2>
+				<label for="firstnameid">First Name</label>
+				<input class="input" type="text" name="first_name" required="true" id="firstnameid" onsubmit=""><br/>
+
+				<label for="lastnameid">Last Name</label>
+				<input class="input" type="text" name="last_name" required="true" id="lastnameid"><br/>
+
+				<label for="emailid">Email Address</label>
+				<input class="input" type="email" name="email_address" required="true" id="emailid"><br/>
+
+				<label for="commentid">Possible comments</label>
+				<textarea id="commentid" name="comments" rows="5"></textarea><br/>
+
+				<input class="contact-button" type="submit" value="Send">
         </fieldset>
-      </form>
-   </section> 
+		</form>
 
-    <!-- Footer -->
-    <footer>
-        <!-- Social media -->
-        <!-- we don's have social networks for our team, but for eductional purposes I addes generic links -->
-        <ul class="social">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-        <p id="center-text" class="white">&copy; Robbert Bos. All rights reserved.<br/>&nbsp;</p>
-    </footer>
+
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<!-- Newsletter -->
+		<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form" id="newsletter">
+			<fieldset>
+				<p class="center-text"><i class="fa fa-envelope" aria-hidden="true"></i> STAY UPDATED WITH THE LATEST NEWS
+				</p>
+                <p class="center-text">receive our weekly newsletter for info about the team</p>
+				<!-- Email / button -->
+				<div class="center-text">
+					<input class="input" type="email" name="email_address" required="true" id="emailid-news" placeholder="Email">
+					<input class="news-button" type="submit" value="Send">
+                </div>
+			</fieldset>
+		</form>
+		</div>
+
+		<!-- Social media -->
+		<ul class="social">
+			<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+			<li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+			<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+		</ul>
+
+		<!-- Copyright -->
+		<p class="center-text white">Copyright &copy; Robbert Bos. All rights reserved.</p>
+		<p class="center-text white">Website by BOS bv.</p>
+	</footer>
 </body>
 
 </html>
