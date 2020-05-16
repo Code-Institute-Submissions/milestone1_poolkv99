@@ -74,16 +74,26 @@ This site is for general users who want to know more about the team and team mem
 Brief overview of the languages, frameworks, and other tools I've used on this project:
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-    - Semantic markup language as the shell of the site.
+    - Semantic markup language as the shell of the site
 
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-    - Cascading Style Sheets as the design of the site.
+    - Cascading Style Sheets as the design of the site
 
 - [Bootstrap](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
-    - Components 
+    - Components (tables)
 
-- [Font Awesome 5](https://fontawesome.com)
-   - Use of social media icons.
+- [Gitpod](https://www.gitpod.io/)
+    - For my development environment
+
+- [Github](https://github.com/)
+    - Version control
+    - Share public site
+
+- [Font Awesome](https://fontawesome.com)
+   - Use of social media icons
+
+- [Google Fonts](https://fonts.google.com/)
+    - Use of custom fonts
 
 ## TESTING
 
@@ -107,22 +117,53 @@ I tested it across all major browsers in both desktop(laptop) and mobile configu
 
 ## DEPLOYMENT
 
-I've deployed the site using **GitHub Pages**, and is available here: [https://volkovbos.github.io/milestone1_poolkv99](https://volkovbos.github.io/milestone1_poolkv99)
+This project was created using Github. 
+From there I used Gitpod.io to write my code.
+Then I used commits to git followed by pushes to my GitHub repository.
+
+As my final step I've deployed this project to GitHub Pages from the GitHub repository using the following steps:
+
+1. Login to my GitHub account
+2. Go to the [milestone1_poolkv99](https://volkovbos.github.io/milestone1_poolkv99) repository
+3. Go to the settings-tab
+4. Scroll down to the GitHub Pages section
+5. At the GitHub Pages section, choose "master branch" as your source
+6. The page will now automatically refresh and the repository deployed
+7. You can now scroll down again to the GitHub Pages section to retrieve the link for the website
+
+To run this project locally the following steps should be followed:
+
+1. You can follow [milestone1_poolkv99](https://volkovbos.github.io/milestone1_poolkv99) to my repository
+2. Click on the green colored button "Clone or download"
+3. Copy the URL that pops up
+4. In your local IDE open Git Bash
+5. The next step is to change your current working directory to the location you want for your cloned directory
+6. Now type in "git clone" and paste the copied URL
+7. When you press Enter your local clone will be created
+
 
 For this project, local deployment was not required.
 
 ## CREDITS
 
+### Content
+The idea and all the content for this page was written by myself.
+
 ### Media
-- The photo used on the homepage was obtained from my personal library, with permission of all team members to use this for my milestone project.
-- The photos for leauge and contact page are from https://pixabay.com/
+The photo used on the homepage was obtained from my personal library, with permission of all team members to use this for my milestone project.
+
+The photos for the league and contact page are from [Pixabay](https://pixabay.com/)
 
 
 ### Acknowledgements
 
 I received inspiration for this project from Love Running project in the CSS fundamentals section of the study.
 
-I used https://www.w3schools.com/ for research.
-I used https://www.embedgooglemap.net/en/ for the Google maps code.
+I used [w3schools](https://www.w3schools.com/) and [StackOverflow](https://stackoverflow.com/) for research.
+
+I used [embedgooglemap](https://www.embedgooglemap.net/en/) for the Google maps code.
 
 Thanks to [Tim Nelson](https://github.com/TravelTimN/ci-milestone01-ucfd) for the testing matrix.
+
+And a thanks to my mentor Precious Ljege who gave me honest and good feedback on my site/code and helped me te complete this project.
+
