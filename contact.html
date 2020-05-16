@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<!-- Meta -->
@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
 		type="text/css" />
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-	</script>
 </head>
 
 <body>
@@ -27,29 +26,37 @@
 			<!-- Menu items -->
 			<ul id="menu">
 				<li>
-					<a id="firstitem" href="index.html">Home</a>
+					<a id="firstitem" class="active" href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="#">&bull;</a>
 				</li>
 				<li>
 					<a href="league.html">League</a>
 				</li>
 				<li>
-					<a class="active" href="contact.html">Contact</a>
+					<a href="#">&bull;</a>
 				</li>
-
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<!-- Background image -->
-	<section id="photo-outer">
+	<div id="photo-outer">
 		<div id="photo-contact"></div>
-	</section>
+	</div>
+	<!-- Message -->
 	<div class="p-3 mb-2 bg-danger text-white">Due to the covid-19 situation our training facility is unavailable.</div>
 
 	<!-- Contact info -->
 	<section class="info-section">
-		<h2 id="title">Contact us</h2>
+		<!-- Title -->
+		<h2 class="title">Contact us</h2>
 
+		<!-- Info -->
 		<p>If you want some information about billards in general, you want to start playing or you have played before
 			and was searching for a team to join, please feel free to contact us. If you are new to the game, we will
 			gladly invite you to come to join a training session with us.</p><br/>
@@ -57,23 +64,26 @@
 			session, but most of us are there 4-5 times in the week. Come join us and don't be afraid to have a go at
 			it!</p><br/>
 		<p>We hope to hear from you or welcome you at the POOL'KV !</p>
-
 		<br/>
 
-        
 
-        <!-- Google maps code from https://www.embedgooglemap.net/en/ -->
+
+		<!-- Google maps and address -->
 		<div class="mapouter">
-            <div class="gmap_address">
-                <p><span id="underline">Address</span><br/>Beekpark 13<br/>7311 BZ Apeldoorn</p>
-                <p><span id="underline">Phone</span><br/>+31 55 521 3333</p>
-                <p><span id="underline">Email</span><br/>poolkv@poolkv.nl</p>
-            </div>
-              
 
-			<div class="gmap_canvas"><iframe width="auto" height="300" id="gmap_canvas"
-					src="https://maps.google.com/maps?q=Apeldoorn%20Beekpark%2013&t=&z=15&ie=UTF8&iwloc=&output=embed"
-					frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+			<!-- Address -->
+			<div class="gmap_address">
+				<p><span class="underline">Address</span> : <br/>Beekpark 13<br/>7311 BZ Apeldoorn</p>
+				<p><span class="underline">Phone</span> : <br/>+31 55 521 3333</p>
+				<p><span class="underline">Email</span> : <br/>poolkv@poolkv.nl</p>
+				<p>&nbsp;</p>
+			</div>
+
+			<!-- Google maps code from https://www.embedgooglemap.net/en/ -->
+			<div class="gmap_canvas">
+				<iframe width="300" height="300" id="gmap_canvas"
+					src="https://maps.google.com/maps?q=Apeldoorn%20Beekpark%2013&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+			</div>
 		</div>
 
 	</section>
@@ -84,13 +94,13 @@
 			<fieldset>
 				<h2 class="center-text">&#127921; Form &#127921; </h2>
 				<label for="firstnameid">First Name</label>
-				<input class="input" type="text" name="first_name" required="true" id="firstnameid" onsubmit=""><br/>
+				<input class="input" type="text" name="first_name" required id="firstnameid" onsubmit=""><br/>
 
 				<label for="lastnameid">Last Name</label>
-				<input class="input" type="text" name="last_name" required="true" id="lastnameid"><br/>
+				<input class="input" type="text" name="last_name" required id="lastnameid"><br/>
 
 				<label for="emailid">Email Address</label>
-				<input class="input" type="email" name="email_address" required="true" id="emailid"><br/>
+				<input class="input" type="email" name="email_address" required id="emailid"><br/>
 
 				<label for="commentid">Possible comments</label>
 				<textarea id="commentid" name="comments" rows="5"></textarea><br/>
@@ -107,17 +117,17 @@
 		<!-- Newsletter -->
 		<form action="https://formdump.codeinstitute.net/" method="post" class="signup-form" id="newsletter">
 			<fieldset>
-				<p class="center-text"><i class="fa fa-envelope" aria-hidden="true"></i> STAY UPDATED WITH THE LATEST NEWS
+				<p class="center-text"><i class="fa fa-envelope" aria-hidden="true"></i> STAY UPDATED WITH THE LATEST
+					NEWS
 				</p>
-                <p class="center-text">receive our weekly newsletter for info about the team</p>
+				<p class="center-text italic">receive our weekly newsletter for info about the team</p>
 				<!-- Email / button -->
 				<div class="center-text">
-					<input class="input" type="email" name="email_address" required="true" id="emailid-news" placeholder="Email">
+					<input class="input" type="email" name="email_address" required id="emailid-news" placeholder="Email">
 					<input class="news-button" type="submit" value="Send">
                 </div>
 			</fieldset>
 		</form>
-		</div>
 
 		<!-- Social media -->
 		<ul class="social">
@@ -128,8 +138,7 @@
 		</ul>
 
 		<!-- Copyright -->
-		<p class="center-text white">Copyright &copy; Robbert Bos. All rights reserved.</p>
-		<p class="center-text white">Website by BOS bv.</p>
+		<p class="center-text white copyright">Copyright &copy; Robbert Bos. All rights reserved.</p>
 	</footer>
 </body>
 

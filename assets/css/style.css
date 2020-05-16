@@ -1,25 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-
 * {
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: inherit; /* This fixes the bootstrap 8 ball background issue thickness */
+    box-sizing: inherit;
+    /* This fixes the bootstrap 8 ball background issue thickness */
+}
+
+p {
+    margin-bottom: 0px;
 }
 
 body {
-    font-family: IBM Plex Sans, Roboto, Arial;
+    font-family: 'IBM Plex Sans', Roboto, Arial;
     color: #777777;
 }
 
 .center-text {
     text-align: center;
-}  
+}
+
 
 /*---------- Menu ----------*/
-/*---------- Idea and contains code from Love Running project ----------*/  
+/*---------- Idea and contains code from Love Running project ----------*/
+
 header {
     text-transform: uppercase;
 }
@@ -39,17 +45,15 @@ header {
     margin: 0;
 }
 
-li:first-child {
-    list-style: none;
-}
-
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
 #menu li {
     float: left;
-    margin-right: 30px;
+    list-style: none;
+    margin-left: 20px;
 }
 
 #menu a {
@@ -64,11 +68,13 @@ li:first-child {
 .active {
     border-bottom: 1px solid #777777;
 }
+
 /*---------- End Menu ----------*/
 
 
 /*---------- Team photo ----------*/
-/*---------- Idea and contains code from Love Running project ----------*/  
+/*---------- Idea and contains code from Love Running project ----------*/
+
 #photo-outer {
     height: 400px;
     width: 100%;
@@ -87,7 +93,7 @@ li:first-child {
 
 #cover-text h2 {
     font-size: 120%;
-    font-family: Roboto, IBM Plex Sans, Arial;
+    font-family: Roboto, 'IBM Plex Sans', Arial;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #ffffff;
@@ -101,14 +107,16 @@ li:first-child {
     text-align: center;
 }
 
-.bg-danger{
+.bg-danger {
     text-align: center;
     font-size: 18px;
 }
+
 /*---------- End Team photo ----------*/
 
 
 /*---------- League photo ----------*/
+
 #photo-league {
     clear: both;
     height: 500px;
@@ -117,10 +125,12 @@ li:first-child {
     background-color: #777777;
     background-size: cover;
 }
+
 /*---------- End League photo ----------*/
 
 
 /*---------- Contact photo ----------*/
+
 #photo-contact {
     clear: both;
     height: 500px;
@@ -129,11 +139,13 @@ li:first-child {
     background-color: #777777;
     background-size: cover;
 }
+
 /*---------- End Contact photo ----------*/
 
 
 /*---------- Player and team info ----------*/
-/*---------- Idea and contains code from Love Running project ----------*/  
+/*---------- Idea and contains code from Love Running project ----------*/
+
 #intro-team {
     text-align: center;
     width: 60%;
@@ -146,18 +158,19 @@ li:first-child {
     margin: auto;
 }
 
-#title {
+.title {
     margin: 20px 0;
     font-size: 280%;
     text-align: center;
     margin-top: 40px;
 }
 
-#players-name {
+.players-name {
     font-size: 120%;
 }
 
-#left-players, #right-players {
+#left-players,
+#right-players {
     padding-top: 30px;
     width: 45%;
 }
@@ -176,7 +189,8 @@ hr {
     margin: 5px 0;
 }
 
-.left-players-block, .right-players-block {
+.left-players-block,
+.right-players-block {
     width: 70%;
     line-height: 20px;
     clear: both;
@@ -191,11 +205,15 @@ hr {
     float: left;
 }
 
-.left-players-block h2, .left-players-block p, .left-players-block table {
+.left-players-block h2,
+.left-players-block p,
+.left-players-block table {
     text-align: left;
 }
 
-.right-players-block h2, .right-players-block p, .right-players-block table {
+.right-players-block h2,
+.right-players-block p,
+.right-players-block table {
     text-align: right;
 }
 
@@ -203,14 +221,20 @@ hr {
     float: right;
 }
 
-.showonmobile{
+.showonmobile {
     display: none;
 }
+
+.td-width {
+    width: 80px;
+}
+
 /*---------- End Player and team info ----------*/
 
 
-/*---------- 8 ball ----------*/  
-/*---------- Idea and contains code from Love Running project ----------*/  
+/*---------- 8 ball ----------*/
+/*---------- Idea and contains code from Love Running project ----------*/
+
 #center-players {
     width: 30%;
     margin: 0 auto;
@@ -218,7 +242,7 @@ hr {
     margin-top: 50px;
 }
 
-#circle-container {
+.circle-container {
     width: 170px;
     height: 170px;
     padding: 10px;
@@ -230,22 +254,24 @@ hr {
     margin-top: 24px;
 }
 
-#circle-cover-bg {
+.circle-cover-bg {
     background: url("../images/8ball.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
+
 /*---------- End 8 ball ----------*/
 
 
 /*---------- League tables ----------*/
+
 #table-section {
     margin-top: 40px;
     clear: both;
 }
 
 .table-bordered {
-    font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #777777;
     width: 80%;
     margin: auto;
@@ -269,46 +295,48 @@ hr {
     color: grey;
     font-style: italic;
 }
+
 /*---------- End League tables ----------*/
 
 
 /*---------- Contact box ----------*/
+
 .form-section {
-    float:left;
+    float: left;
     position: relative;
-    left:5%;
+    left: 5%;
     height: 500px;
     width: 40%;
-    margin:auto;
+    margin: auto;
 }
 
 .info-section {
-    float:right;
+    float: right;
     position: relative;
-    right:5%;
+    right: 5%;
     margin-top: 30px;
     margin-bottom: 40px;
-    padding:20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     width: 40%;
     border: 1px solid #333333;
     border-radius: 20px;
 }
 
 .signup-form {
-    margin-top:30px;
+    margin-top: 30px;
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    left:5%;
+    left: 5%;
     padding: 10px;
     border-radius: 10px;
 }
 
-.signup-form h2{
+.signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
 
-.input{
+.input {
     background-color: transparent;
     color: #fafafa;
     width: 100%;
@@ -318,11 +346,11 @@ hr {
     border-radius: 2px;
 }
 
-.input:hover{
+.input:hover {
     border-color: #333333;
 }
 
-#commentid{
+#commentid {
     background-color: transparent;
     color: #fafafa;
     margin: 5px 0 20px 0;
@@ -331,8 +359,8 @@ hr {
     width: 100%;
 }
 
-.contact-button{
-    margin:auto;
+.contact-button {
+    margin: auto;
     border-radius: 10px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -342,7 +370,7 @@ hr {
     display: block;
 }
 
-.contact-button:hover{
+.contact-button:hover {
     background-color: #fafafa;
     color: #777777;
 }
@@ -351,11 +379,12 @@ hr {
     margin: auto;
 }
 
+
 /* Google maps code from https://www.embedgooglemap.net/en/ */
+
 .mapouter {
     position: relative;
     text-align: right;
-    height: 300px;
     width: auto;
 }
 
@@ -365,7 +394,7 @@ hr {
     text-align: left;
 }
 
-#underline {
+.underline {
     text-decoration: underline;
 }
 
@@ -375,10 +404,12 @@ hr {
     height: 300px;
     width: auto;
 }
+
 /*---------- Contact box ----------*/
 
 
 /*---------- Footer ----------*/
+
 footer {
     height: auto;
     border-top: 5px #2b2b2b solid;
@@ -393,16 +424,25 @@ footer {
     margin-top: 10px;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+/* Code from https://www.w3schools.com/howto/howto_css_placeholder.asp */
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #fafafa;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #fafafa;
+/* Error on css validator */
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fafafa;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
-  color: #fafafa;
+/* Error on css validator */
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fafafa;
 }
 
 #emailid-news {
@@ -411,31 +451,14 @@ footer {
     width: 50%;
 }
 
-.news-button{
-    margin:auto;
+.news-button {
+    margin: auto;
     border-radius: 10px;
     padding: 5px 5px 5px 5px;
     text-align: center;
     background-color: #333333;
     color: #fafafa;
 }
-
-/*
-.mail-content-container {
-    margin: auto;
-    color: #fafafa;
-    width: auto;
-}
-
-.form-control-lg {
-    height: 15px;
-    line-height: 15px;
-    width: 50px;
-}
-
-.btn-dark {
-
-}*/
 
 .social {
     text-align: center;
@@ -470,19 +493,51 @@ footer {
     color: #c13584;
 }
 
+.italic {
+    font-size: 90%;
+    font-style: italic;
+}
+
 .white {
     color: #fafafa;
     margin: auto;
     font-size: 110%;
 }
+
+.copyright {
+    padding-bottom: 20px;
+}
+
 /*---------- End Footer ----------*/
+
+
+/*--------------------  Google float -------------------- */
+
+@media screen and (max-width: 1100px) {
+
+    .gmap_address {
+        float: none;
+    }
+
+    .gmap_canvas {
+        text-align: center;
+    }
+
+    .gmap_address br {
+        display: none;
+    }
+}
+
+/*--------------------  End Google float -------------------- */
 
 
 /*--------------------  Tablet -------------------- */
 /* chose for this size, because of the menu bar */
-@media screen and (max-width: 700px) {
 
-/*---------- Menu ----------*/
+@media screen and (max-width: 740px) {
+
+    /*---------- Menu ----------*/
+
     #header {
         font-size: 180%;
         letter-spacing: 5px;
@@ -496,8 +551,29 @@ footer {
         float: right;
         line-height: 50px;
     }
-/*---------- End Menu ----------*/
-/*---------- Contact box ----------*/
+
+    #menu li {
+        margin-left: 15px;
+    }
+
+    /*---------- End Menu ----------*/
+
+    .players-name,
+    .left-players-block p,
+    .right-players-block p {
+        font-size: 95%;
+    }
+
+    #intro-players tr {
+        font-size: 80%;
+    }
+
+    #center-players {
+        opacity: 0.1;
+    }
+
+    /*---------- Contact box ----------*/
+
     .info-section {
         float: none;
         position: relative;
@@ -516,40 +592,60 @@ footer {
         width: 80%;
         height: auto;
     }
-/*---------- End Contact box ----------*/
+
+    /*---------- End Contact box ----------*/
+
+    #newsletter {
+        width: 80%;
+        font-size: 80%;
+    }
 }
+
 /*--------------------  End Tablet -------------------- */
 
 
 /*--------------------  Inbetween tablet-mobile -------------------- */
-@media screen and (max-width: 600px) and (min-width: 501px){
 
-    #players-name, .left-players-block p, .right-players-block p{
-        font-size: 80%;
+@media screen and (max-width: 600px) and (min-width: 501px) {
+
+    #menu li {
+        margin-left: 15px;
     }
 
-    #intro-players tr{
-        font-size: 60%;
+    .players-name,
+    .left-players-block p,
+    .right-players-block p {
+        font-size: 90%;
     }
 
-    #center-players{
+    #intro-players tr {
+        font-size: 70%;
+    }
+
+    #center-players {
         width: auto;
-        opacity: 0.2;
+    }
+
+    .table-bordered {
+        font-size: 70%
     }
 }
+
 /*---------- End Inbetween tablet-mobile ----------*/
 
 
 /*--------------------  Mobile -------------------- */
 /* chose for this size, because of the menu bar */
+
 @media screen and (max-width: 500px) {
 
-/*---------- Menu ----------*/
+    /*---------- Menu ----------*/
+
     #header {
-        font-size: 130%;
-        letter-spacing: 2px;
-        margin:auto;
-        float: left;
+        font-size: 100%;
+        letter-spacing: 1px;
+        margin: auto;
+        margin-top: 5px;
     }
 
     #menu {
@@ -560,14 +656,17 @@ footer {
     }
 
     #menu li {
-        margin-right: 18px;
+        margin-left: 5px;
     }
-/*---------- End Menu ----------*/
 
-    #photo-team, #photo-league, #photo-contact {
+    /*---------- End Menu ----------*/
+
+    #photo-team,
+    #photo-league,
+    #photo-contact {
         height: 200px;
     }
-    
+
     #photo-outer {
         height: 200px;
     }
@@ -581,7 +680,7 @@ footer {
         width: 80%;
     }
 
-    #title{
+    .title {
         font-size: 150%
     }
 
@@ -593,7 +692,7 @@ footer {
         padding: 6px 3px 0px 3px;
     }
 
-    .showonmobile{
+    .showonmobile {
         display: block;
         text-align: left;
         width: 80px;
@@ -613,30 +712,29 @@ footer {
         margin: auto;
     }
 
-    #right-players, #left-players {
+    #right-players,
+    #left-players {
         float: none;
         width: 100%;
         margin: auto;
-
     }
 
-    .left-players-block  {
+    .left-players-block {
         float: none;
     }
 
-    .right-players-block h2, .right-players-block p, .right-players-block table {
+    .right-players-block h2,
+    .right-players-block p,
+    .right-players-block table {
         text-align: left;
     }
-/*
-    .right-players-block {
-        float:none;
-        margin:auto;
-        margin-bottom: 120px !important;
-    }*/
 
-    #center-players{
+    #center-players {
         display: none;
+    }
+
+    .table-bordered {
+        font-size: 60%;
     }
 }
 /*-------------------- End Mobile --------------------*/
-
