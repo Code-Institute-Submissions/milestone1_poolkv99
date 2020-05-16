@@ -62,7 +62,7 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #d4cccc;
+    border-bottom: 1px solid #cccccc;
 }
 
 .active {
@@ -96,7 +96,7 @@ header {
     font-family: Roboto, 'IBM Plex Sans', Arial;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #ffffff;
+    color: #fafafa;
     width: 200px;
     height: 60px;
     padding: 10px 10px 0px 10px;
@@ -278,7 +278,7 @@ hr {
 }
 
 .table-dark th {
-    color: #ffffff;
+    color: #fafafa;
 }
 
 #red {
@@ -318,13 +318,13 @@ hr {
     margin-bottom: 40px;
     padding: 20px 20px 20px 20px;
     width: 40%;
-    border: 1px solid #333333;
+    border: 1px solid #555555;
     border-radius: 20px;
 }
 
 .signup-form {
     margin-top: 30px;
-    color: #ffffff;
+    color: #fafafa;
     background-color: rgba(60, 60, 60, 0.6);
     left: 5%;
     padding: 10px;
@@ -347,7 +347,7 @@ hr {
 }
 
 .input:hover {
-    border-color: #333333;
+    border-color: #2b2b2b;
 }
 
 #commentid {
@@ -365,7 +365,7 @@ hr {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #333333;
+    background-color: #2b2b2b;
     color: #fafafa;
     display: block;
 }
@@ -415,7 +415,7 @@ footer {
     border-top: 5px #2b2b2b solid;
     margin-top: 50px;
     clear: both;
-    background-color: #a1a1a1;
+    background-color: #cccccc;
 }
 
 #newsletter {
@@ -456,13 +456,13 @@ footer {
     border-radius: 10px;
     padding: 5px 5px 5px 5px;
     text-align: center;
-    background-color: #333333;
+    background-color: #2b2b2b;
     color: #fafafa;
 }
 
 .social {
     text-align: center;
-    background-color: #a1a1a1;
+    background-color: #cccccc;
     margin-bottom: 0px;
 }
 
