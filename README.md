@@ -28,6 +28,8 @@ I used [Draw IO](https://www.draw.io) to create my wireframes and put them in a 
 
 This site is for general users who want to know more about the team and team members who want to know more about fixtures and results. The site has divided these sections in different pages, with the information for the general users on the homepage. This because the team members are on the site for specific information and the general users need more generic information.
 
+#### USER STORIES
+
 ##### Site Owner
 - As a site owner I want to have the social links open in a new tab/page of the browser so the user is not lost on our website.
 
@@ -48,6 +50,8 @@ This site is for general users who want to know more about the team and team mem
 
 ## Features
 - On all pages there is a clear and obvious menu for the three pages.
+- A navigation menu, which changes to a hamburger menu on smaller screens
+- When you have the hamburger menu on smaller screens, you get a dropdown menu when clicking the hamburger icon
 - On all pages there is a seperate footer.
 - In the footer there is a newsletter signup possibility.
 - In the footer there are social network links.
@@ -96,6 +100,41 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
     - Use of custom fonts
 
 ## TESTING
+1. Use of the logo in the topleft corner:
+    * Mobile
+        1. The logo will be smaller and will stay on the same line as the hamburger icon
+        2. When you find yourself on any part of the site, you can click on the logo to return to the home section
+    * Tablet and desktop
+        1. The logo will be normal size and will stay on the same line as the hamburger icon
+        2. When you find yourself on any part of the site, you can click on the logo to return to the home section
+
+2. Use of the navigation menu:
+    * Mobile and tablet:
+        1. Go to the header on the top of the page
+        2. Click on the hamburger icon
+        3. You will see a dropdown menu
+        4. Click on a link in the dropdown menu
+        5. The menu closes and the page selected will open
+        6. An opened page will be underlined in the menu, whether the menu is collapsed or not 
+        7. The bullets that divide the menu items are not shown when the menu is collapsed into the hamburger icon
+    * Desktop:
+        1. Go to the header on the top of the page
+        2. You will see a line under the menu item that belongs to the page you're currently at
+        3. When you hover over one of the menu items it will change to the color of that section
+        4. Click on one of the menu items
+        5. The page will open
+        6. When you scroll to a different item then the one you where on, the line under the item will move to the link that you are now on
+
+3. When you want to find basic info about the Pool'KV 99:
+    * Mobile, Tablet, Desktop:
+        1. At the home page you will find a image that gives you all the team members
+        2. You can scroll down and in the section 'Who are we' you can see how the team came togeter
+        3. You can scroll down and in the section 'The players' you can see who is in the team and there skills
+    * Tablet:
+        3. The section 'The players' is shown in smaller fonts and the background 8-ball images have more opacity for a clear view
+    * Mobile:
+        3. The players in section 'The players' are shown vertically beneath each other and the 8-ball images are not rendered
+    
 
 #### TEST MATRIX
 
@@ -167,3 +206,6 @@ Thanks to [Tim Nelson](https://github.com/TravelTimN/ci-milestone01-ucfd) for th
 
 And a thanks to my mentor Precious Ljege who gave me honest and good feedback on my site/code and helped me te complete this project.
 
+I used [w3.org](https://www.w3.org/Graphics/SVG/) for the creation of the hamburger (collapsible menu).
+
+I used the code for the menu from [aleesang](https://aleesang.github.io/milestone-project-one).
