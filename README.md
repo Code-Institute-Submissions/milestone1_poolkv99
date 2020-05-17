@@ -51,6 +51,7 @@ This site is for general users who want to know more about the team and team mem
 ## Features
 - On all pages there is a clear and obvious menu for the three pages.
 - A navigation menu, which changes to a hamburger menu on smaller screens
+- A navigation menu, which sticks on the top of the page.
 - When you have the hamburger menu on smaller screens, you get a dropdown menu when clicking the hamburger icon
 - On all pages there is a seperate footer.
 - In the footer there is a newsletter signup possibility.
@@ -114,13 +115,14 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 
 2. Use of the navigation menu:
     * Mobile and tablet:
-        1. Go to the header on the top of the page
-        2. Click on the hamburger icon
-        3. You will see a dropdown menu
-        4. Click on a link in the dropdown menu
-        5. The menu closes and the page selected will open
-        6. An opened page will be underlined in the menu, whether the menu is collapsed or not 
-        7. The bullets that divide the menu items are not shown when the menu is collapsed into the hamburger icon
+        1. Go to the header/menu on the top of the page
+        2. Scroll down, the header/menu must stay in the top of the page
+        3. Click on the hamburger icon
+        4. You will see a dropdown menu
+        5. Click on a link in the dropdown menu
+        6. The menu closes and the page selected will open
+        7. An opened page will be underlined in the menu, whether the menu is collapsed or not 
+        8. The bullets that divide the menu items are not shown when the menu is collapsed into the hamburger icon
     * Desktop:
         1. Go to the header on the top of the page
         2. You will see a line under the menu item that belongs to the page you're currently at
