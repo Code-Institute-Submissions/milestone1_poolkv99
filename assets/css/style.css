@@ -5,8 +5,8 @@
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: inherit;
     /* This fixes the bootstrap 8 ball background issue thickness */
+    box-sizing: inherit; 
 }
 
 p {
@@ -22,53 +22,60 @@ body {
     text-align: center;
 }
 
-
 /*---------- Menu ----------*/
 /*---------- Idea and contains code from Love Running project ----------*/
 
-header {
+.navbar-bg{
+    background-color: #fafafa;
+    border: 0;
     text-transform: uppercase;
+    font-size: larger;
+    position: relative;
 }
 
-#header {
-    float: left;
-    font-size: 280%;
-    margin: 10px 0 0 30px;
-    font-weight: 300;
-    color: #555555;
-    letter-spacing: 10px;
+.navbar-brand {
+    color: #2b2b2b;
+    font-size: 200%;
+    letter-spacing:10px;
 }
 
-#menu {
-    letter-spacing: 4px;
-    float: right;
-    margin: 0;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: left;
-    list-style: none;
-    margin-left: 20px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #cccccc;
-}
-
-.active {
+.navbar-brand:hover, .navbar-nav li a:hover{
+    opacity: 0.6;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out; 
+    color: #777777;
     border-bottom: 1px solid #777777;
 }
 
+.navbar-nav li a{
+    color: #555555 !important;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(43, 43, 43, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #2b2b2b;
+} 
+
+button:focus { 
+    outline:0 !important; 
+}
+
+/* hiding the bullets when menu is collapsed */
+@media screen and (max-width: 991px) {
+    .hideoncollapse {
+        display: none;
+            width: 0px;
+    }
+}
 /*---------- End Menu ----------*/
 
 
@@ -532,31 +539,7 @@ footer {
 
 
 /*--------------------  Tablet -------------------- */
-/* chose for this size, because of the menu bar */
-
 @media screen and (max-width: 740px) {
-
-    /*---------- Menu ----------*/
-
-    #header {
-        font-size: 180%;
-        letter-spacing: 5px;
-        margin-left: 10px;
-        float: left;
-    }
-
-    #menu {
-        font-size: 80%;
-        letter-spacing: 2px;
-        float: right;
-        line-height: 50px;
-    }
-
-    #menu li {
-        margin-left: 15px;
-    }
-
-    /*---------- End Menu ----------*/
 
     .players-name,
     .left-players-block p,
@@ -608,10 +591,6 @@ footer {
 
 @media screen and (max-width: 600px) and (min-width: 501px) {
 
-    #menu li {
-        margin-left: 15px;
-    }
-
     .players-name,
     .left-players-block p,
     .right-players-block p {
@@ -639,27 +618,9 @@ footer {
 
 @media screen and (max-width: 500px) {
 
-    /*---------- Menu ----------*/
-
-    #header {
-        font-size: 100%;
-        letter-spacing: 1px;
-        margin: auto;
-        margin-top: 5px;
+    .navbar-brand {
+        font-size: 130%;
     }
-
-    #menu {
-        letter-spacing: 0px;
-        float: right;
-        line-height: 20px;
-        margin: 5px 0 5px 10px;
-    }
-
-    #menu li {
-        margin-left: 5px;
-    }
-
-    /*---------- End Menu ----------*/
 
     #photo-team,
     #photo-league,
