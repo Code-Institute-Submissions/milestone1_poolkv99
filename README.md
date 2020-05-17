@@ -187,20 +187,27 @@ I tested it across all major browsers in both desktop(laptop) and mobile configu
 - Internet Explorer
 
 ### NOTED ISSUES
+In Internet Explorer 11 I got some styling issues, I made photos and stored them in the testing folder:
+- The cover text on the home page image doesn't render on 2 lines.
+- 8 ball html entity &#127921; renders as a rack instead off a ball (not an issue).
+- The 8 ball background image renders not as expected.
+
+Due to the fact that IE11 isn't as widely used anymore I exept these issues, without handling them.<br/>
+[Browser Market Share](https://gs.statcounter.com/browser-market-share#monthly-201904-202004)
+
 With the code validator on CSS I got the following errors, however I chose to keep the CSS code to target multiple browser.
 
-URI : https://8000-b1386ddf-22e1-43bb-bcb9-fef48921c45c.ws-eu01.gitpod.io/assets/css/style.css
-35		-webkit-box-shadow is an unknown vendor extension
-36		-moz-box-shadow is an unknown vendor extension
-50		-webkit-box-shadow is an unknown vendor extension
-51		-moz-box-shadow is an unknown vendor extension
-72		-moz-transition is an unknown vendor extension
-73		-webkit-transition is an unknown vendor extension
-74		-o-transition is an unknown vendor extension
-121		-webkit-box-shadow is an unknown vendor extension
-122		-moz-box-shadow is an unknown vendor extension
-468		:-ms-input-placeholder is an unknown vendor extended pseudo-class
-475		::-ms-input-placeholder is an unknown vendor extended pseudo-element
+35		-webkit-box-shadow is an unknown vendor extension<br/>
+36		-moz-box-shadow is an unknown vendor extension<br/>
+50		-webkit-box-shadow is an unknown vendor extension<br/>
+51		-moz-box-shadow is an unknown vendor extension<br/>
+72		-moz-transition is an unknown vendor extension<br/>
+73		-webkit-transition is an unknown vendor extension<br/>
+74		-o-transition is an unknown vendor extension<br/>
+121		-webkit-box-shadow is an unknown vendor extension<br/>
+122		-moz-box-shadow is an unknown vendor extension<br/>
+468		:-ms-input-placeholder is an unknown vendor extended pseudo-class<br/>
+475		::-ms-input-placeholder is an unknown vendor extended pseudo-element<br/>
 
 ## DEPLOYMENT
 
