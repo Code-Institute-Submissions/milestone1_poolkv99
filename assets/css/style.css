@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+/*---------- General ----------*/
 * {
     margin: 0;
     padding: 0;
@@ -22,10 +23,18 @@ body {
     text-align: center;
 }
 
-/*---------- Menu ----------*/
-/*---------- Idea and contains code from Love Running project ----------*/
+.title {
+    margin: 20px 0;
+    font-size: 280%;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+/*---------- End General ----------*/
 
-.navbar-bg{
+/*---------- Menu ----------*/
+/* Code from https://mdbootstrap.com/docs/jquery/navigation/hamburger-menu/#docsTabsOverview */
+.navbar-bg {
     background-color: #fafafa;
     border: 0;
     text-transform: uppercase;
@@ -36,7 +45,7 @@ body {
 .navbar-brand {
     color: #2b2b2b;
     font-size: 200%;
-    letter-spacing:10px;
+    letter-spacing: 10px;
 }
 
 .navbar-brand:hover, .navbar-nav li a:hover{
@@ -79,9 +88,8 @@ button:focus {
 /*---------- End Menu ----------*/
 
 
-/*---------- Team photo ----------*/
+/*---------- Images ----------*/
 /*---------- Idea and contains code from Love Running project ----------*/
-
 #photo-outer {
     height: 400px;
     width: 100%;
@@ -98,6 +106,7 @@ button:focus {
     background-size: cover;
 }
 
+/*---------- Code from Love Running project ----------*/
 #cover-text h2 {
     font-size: 120%;
     font-family: Roboto, 'IBM Plex Sans', Arial;
@@ -114,16 +123,6 @@ button:focus {
     text-align: center;
 }
 
-.bg-danger {
-    text-align: center;
-    font-size: 18px;
-}
-
-/*---------- End Team photo ----------*/
-
-
-/*---------- League photo ----------*/
-
 #photo-league {
     clear: both;
     height: 500px;
@@ -132,11 +131,6 @@ button:focus {
     background-color: #777777;
     background-size: cover;
 }
-
-/*---------- End League photo ----------*/
-
-
-/*---------- Contact photo ----------*/
 
 #photo-contact {
     clear: both;
@@ -147,7 +141,15 @@ button:focus {
     background-size: cover;
 }
 
-/*---------- End Contact photo ----------*/
+#photo-rules {
+    clear: both;
+    height: 500px;
+    width: 100%;
+    background: url("../images/pool4.jpg") no-repeat center center;
+    background-color: #777777;
+    background-size: cover;
+}
+/*---------- End Images ----------*/
 
 
 /*---------- Player and team info ----------*/
@@ -163,13 +165,6 @@ button:focus {
     text-align: center;
     width: 90%;
     margin: auto;
-}
-
-.title {
-    margin: 20px 0;
-    font-size: 280%;
-    text-align: center;
-    margin-top: 40px;
 }
 
 .players-name {
@@ -235,13 +230,11 @@ hr {
 .td-width {
     width: 80px;
 }
-
 /*---------- End Player and team info ----------*/
 
 
 /*---------- 8 ball ----------*/
 /*---------- Idea and contains code from Love Running project ----------*/
-
 #center-players {
     width: 30%;
     margin: 0 auto;
@@ -271,7 +264,6 @@ hr {
 
 
 /*---------- League tables ----------*/
-
 #table-section {
     margin-top: 40px;
     clear: both;
@@ -302,12 +294,10 @@ hr {
     color: grey;
     font-style: italic;
 }
-
 /*---------- End League tables ----------*/
 
 
 /*---------- Contact box ----------*/
-
 .form-section {
     float: left;
     position: relative;
@@ -382,11 +372,6 @@ hr {
     color: #777777;
 }
 
-.gmap_canvas {
-    margin: auto;
-}
-
-
 /* Google maps code from https://www.embedgooglemap.net/en/ */
 
 .mapouter {
@@ -411,12 +396,26 @@ hr {
     height: 300px;
     width: auto;
 }
+/*---------- End Contact box ----------*/
 
-/*---------- Contact box ----------*/
+
+/*---------- Rules ----------*/
+.rules {
+    width: 80%;
+    margin: auto;
+}
+.entry-content p {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.entry-content h4 {
+    margin-top: 30px;
+}
+/*---------- End Rules----------*/
 
 
 /*---------- Footer ----------*/
-
 footer {
     height: auto;
     border-top: 5px #2b2b2b solid;
@@ -514,12 +513,10 @@ footer {
 .copyright {
     padding-bottom: 20px;
 }
-
 /*---------- End Footer ----------*/
 
 
 /*--------------------  Google float -------------------- */
-
 @media screen and (max-width: 1100px) {
 
     .gmap_address {
@@ -534,7 +531,6 @@ footer {
         display: none;
     }
 }
-
 /*--------------------  End Google float -------------------- */
 
 
@@ -556,7 +552,6 @@ footer {
     }
 
     /*---------- Contact box ----------*/
-
     .info-section {
         float: none;
         position: relative;
@@ -575,7 +570,6 @@ footer {
         width: 80%;
         height: auto;
     }
-
     /*---------- End Contact box ----------*/
 
     #newsletter {
@@ -583,12 +577,10 @@ footer {
         font-size: 80%;
     }
 }
-
 /*--------------------  End Tablet -------------------- */
 
 
 /*--------------------  Inbetween tablet-mobile -------------------- */
-
 @media screen and (max-width: 600px) and (min-width: 501px) {
 
     .players-name,
@@ -609,13 +601,10 @@ footer {
         font-size: 70%
     }
 }
-
 /*---------- End Inbetween tablet-mobile ----------*/
 
 
 /*--------------------  Mobile -------------------- */
-/* chose for this size, because of the menu bar */
-
 @media screen and (max-width: 500px) {
 
     .navbar-brand {
