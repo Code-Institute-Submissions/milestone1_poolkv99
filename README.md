@@ -104,7 +104,7 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
     - Share public site
 
 ## TESTING
-1. Use of the logo in the topleft corner:
+1. Use of the logo/title in the topleft corner:
     * Mobile
         1. The logo will be smaller and will stay on the same line as the hamburger icon
         2. When you find yourself on any part of the site, you can click on the logo to return to the home section
@@ -138,7 +138,33 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
         3. The section 'The players' is shown in smaller fonts and the background 8-ball images have more opacity for a clear view
     * Mobile:
         3. The players in section 'The players' are shown vertically beneath each other and the 8-ball images are not rendered
-    
+
+4. When you want to find info about the league and fixtures of the season;
+    * Mobile, Tablet, Desktop:
+        1. Go to the league page
+        2. You can scroll down and in the section 'LEAGUE TABLE' you can see the league table with current standings
+        3. You can scroll down and in the section 'FIXTURES SEASON '19-'20' you can see the fixtures of the season
+
+5. When you want to contact the team;
+    * Mobile, Tablet, Desktop:
+        1. Go to the contact page
+        2. You can scroll down and in the section 'CONTACT US' you can see the contact information and location and a Google map for the address
+        3. on the left you see a contact form
+        4. Fill in the required fields en press on send
+            - When first-, last name or email aren't filled a message is shown that the field is required
+    * Mobile
+        1. The contact form and the info section are shown below each other
+
+6. When you want to find rules about 8 ball;
+    * Mobile, Tablet, Desktop:
+        1. Go to the rules page
+        2. You can scroll down and in the section '8 ball rules' you can see the rules
+
+7. Use of the footer 
+    * Mobile, Tablet, Desktop:
+        1. You can scroll down to the bottom of each page of the site and find the footer
+        2. Fill in an email and press send to sign in for a newsletter
+        3. Click on all social links, this should open the social media in a new tab in your browser
 
 ### TEST MATRIX
 
