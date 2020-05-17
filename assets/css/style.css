@@ -114,7 +114,6 @@ button:focus {
 /*---------- Idea and contains code from Love Running project ----------*/
 #photo-outer {
     margin-top: 80px;
-    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -128,8 +127,8 @@ button:focus {
     height: 500px;
     width: 100%;
     background: url("../images/team.jpeg") no-repeat center center;
-    background-color: #777777;
     background-size: cover;
+    padding-left: 100px;
 }
 
 /*---------- Code from Love Running project ----------*/
@@ -154,7 +153,6 @@ button:focus {
     height: 500px;
     width: 100%;
     background: url("../images/pool3.jpeg") no-repeat center center;
-    background-color: #777777;
     background-size: cover;
 }
 
@@ -163,7 +161,6 @@ button:focus {
     height: 500px;
     width: 100%;
     background: url("../images/pool2.jpg") no-repeat center center;
-    background-color: #777777;
     background-size: cover;
 }
 
@@ -172,8 +169,8 @@ button:focus {
     height: 500px;
     width: 100%;
     background: url("../images/pool4.jpg") no-repeat center center;
-    background-color: #777777;
     background-size: cover;
+    background-position: 75% 70%;
 }
 /*---------- End Images ----------*/
 
@@ -609,6 +606,13 @@ footer {
 /*--------------------  Inbetween tablet-mobile -------------------- */
 @media screen and (max-width: 600px) and (min-width: 501px) {
 
+    #photo-team,
+    #photo-league,
+    #photo-contact,
+    #photo-rules  {
+        height: 300px;
+    }
+
     .players-name,
     .left-players-block p,
     .right-players-block p {
@@ -636,19 +640,17 @@ footer {
     .navbar-brand {
         font-size: 130%;
     }
-
+    
     #photo-outer {
         margin-top: 60px;
     }
 
     #photo-team,
     #photo-league,
-    #photo-contact {
-        height: 200px;
-    }
-
-    #photo-outer {
-        height: 200px;
+    #photo-contact,
+    #photo-rules  {
+        height: 300px;
+        padding-left: 70px;
     }
 
     #intro-team {
