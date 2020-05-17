@@ -187,7 +187,20 @@ I tested it across all major browsers in both desktop(laptop) and mobile configu
 - Internet Explorer
 
 ### NOTED ISSUES
-n/a
+With the code validator on CSS I got the following errors, however I chose to keep the CSS code to target multiple browser.
+
+URI : https://8000-b1386ddf-22e1-43bb-bcb9-fef48921c45c.ws-eu01.gitpod.io/assets/css/style.css
+35		-webkit-box-shadow is an unknown vendor extension
+36		-moz-box-shadow is an unknown vendor extension
+50		-webkit-box-shadow is an unknown vendor extension
+51		-moz-box-shadow is an unknown vendor extension
+72		-moz-transition is an unknown vendor extension
+73		-webkit-transition is an unknown vendor extension
+74		-o-transition is an unknown vendor extension
+121		-webkit-box-shadow is an unknown vendor extension
+122		-moz-box-shadow is an unknown vendor extension
+468		:-ms-input-placeholder is an unknown vendor extended pseudo-class
+475		::-ms-input-placeholder is an unknown vendor extended pseudo-element
 
 ## DEPLOYMENT
 
