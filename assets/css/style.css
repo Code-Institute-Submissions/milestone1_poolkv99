@@ -45,7 +45,6 @@ body {
     position: fixed !important;
     top: 0;
     width: auto;
-    height: 70px;
 
     /* Code from https://stackoverflow.com/questions/3971880/how-to-make-shadow-on-border-bottom */
     -webkit-box-shadow: 0px 3px 3px #2b2b2b;
@@ -114,7 +113,7 @@ button:focus {
 /*---------- Images ----------*/
 /*---------- Idea and contains code from Love Running project ----------*/
 #photo-outer {
-    margin-top: 70px;
+    margin-top: 80px;
     height: 400px;
     width: 100%;
     overflow: hidden;
@@ -636,6 +635,10 @@ footer {
 
     .navbar-brand {
         font-size: 130%;
+    }
+
+    #photo-outer {
+        margin-top: 60px;
     }
 
     #photo-team,
