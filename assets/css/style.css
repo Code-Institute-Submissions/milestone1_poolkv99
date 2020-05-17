@@ -30,6 +30,12 @@ body {
     margin-top: 40px;
     text-transform: uppercase;
 }
+
+.bg-danger {
+    -webkit-box-shadow: 0px 2px 2px #777777;
+    -moz-box-shadow: 0px 2px 2px #777777;
+    box-shadow: 0px 2px 2px #777777;
+}
 /*---------- End General ----------*/
 
 /*---------- Menu ----------*/
@@ -111,6 +117,9 @@ button:focus {
     width: 100%;
     overflow: hidden;
     position: relative;
+    -webkit-box-shadow: 0px 2px 2px #2b2b2b;
+    -moz-box-shadow: 0px 2px 2px #2b2b2b;
+    box-shadow: 0px 2px 2px #2b2b2b;
 }
 
 #photo-team {

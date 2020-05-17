@@ -90,6 +90,9 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 - [Font Awesome](https://fontawesome.com)
    - Use of social media icons
 
+- [Favicon](https://www.w3.org/2005/10/howto-favicon)
+    - Use of the favicon on the browser tab
+
 - [Google Fonts](https://fonts.google.com/)
     - Use of custom fonts
 
