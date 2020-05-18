@@ -638,7 +638,8 @@ footer {
 @media screen and (max-width: 500px) {
 
     .navbar-brand {
-        font-size: 130%;
+        font-size: 100%;
+        letter-spacing: 2px;
     }
     
     #photo-outer {
