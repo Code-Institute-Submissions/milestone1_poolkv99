@@ -2,7 +2,7 @@
 
 The website is about my pool team where I play semi-professional pool billards in. You'll get a short introduction about how our team came together as well as who is in our team and which strengths each member has.
 
-Separate the team itself will use it to see what our schedule is and when and where we have to play our matches. Additionally there is a league table to see how our team is doing this season.
+Separate the team itself will use it to see what our schedule is and when and where we have to play our matches. Additionally there is a league table to see how our team is doing this season. Here is a link to my website [Pool'KV 99](https://volkovbos.github.io/milestone1_poolkv99/index.html)
 <br/><br/>
 
 ## DESIGN
@@ -11,7 +11,7 @@ Separate the team itself will use it to see what our schedule is and when and wh
 We worked with Bootstrap in the training modules, so used this for the fixtures and league tables to implement and the collapsible menu. For the rest I used CSS and HTML without custom components.
 
 ###  COLOR SCHEME
-The color scheme is chose is a grey palette.
+The color scheme I chose is a grey palette.
 
 - `#777777` (light grey)
 - `#555555` (dark grey)
@@ -74,6 +74,8 @@ This site is for general users who want to know more about the team and team mem
 - Address information about the location.
 - Google map for the location details.
 
+### [rules.html](https://volkovbos.github.io/milestone1_poolkv99/rules.html)
+- Rules of 8 ball
 
 ## Technologies Used
 Brief overview of the languages, frameworks, and other tools I've used on this project:
@@ -173,7 +175,7 @@ Brief overview of the languages, frameworks, and other tools I've used on this p
 
 ### TEST MATRIX
 
-I used a [testing matrix](https://github.com/VolkovBos/milestone1_poolkv99/blob/master/testing/TestScriptWebsite.xlsx) in Excel from [Tim Nelson](https://github.com/TravelTimN/ci-milestone01-ucfd).
+I used a testing matrix in Excel to test the script across several browsers and devices. I saved the results as a [PDF file](https://github.com/VolkovBos/milestone1_poolkv99/blob/master/testing/TestScriptWebsite%20Milestone1.pdf).
 
 ### COMBATIBILITY
 
@@ -195,7 +197,7 @@ In Internet Explorer 11 I got some styling issues, I made photos and stored them
 Due to the fact that IE11 isn't as widely used anymore I exept these issues, without handling them.<br/>
 [Browser Market Share](https://gs.statcounter.com/browser-market-share#monthly-201904-202004)
 
-With the code validator on CSS I got the following errors, however I chose to keep the CSS code to target multiple browser.
+With the code validator on CSS I got the following errors, however I chose to keep the CSS code to target and be compatible for multiple browser.
 
 35		-webkit-box-shadow is an unknown vendor extension<br/>
 36		-moz-box-shadow is an unknown vendor extension<br/>
@@ -259,8 +261,6 @@ I received inspiration for this project from Love Running project in the CSS fun
 
 Thanks to [Tim Nelson](https://github.com/TravelTimN/ci-milestone01-ucfd) for the testing matrix.
 
-And a thanks to my mentor Precious Ljege who gave me honest and good feedback on my site/code and helped me te complete this project.
-
-[w3.org](https://www.w3.org/Graphics/SVG/) for the creation of the hamburger (collapsible menu).
+And a thanks to my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) who gave me honest and good feedback on my site/code and helped me te complete this project.
 
 I used the code for the menu from [aleesang](https://aleesang.github.io/milestone-project-one).
